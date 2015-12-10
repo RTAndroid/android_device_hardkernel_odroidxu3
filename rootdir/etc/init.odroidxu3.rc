@@ -1,5 +1,6 @@
 import init.odroidxu3.usb.rc
 import init.odroidxu3.wifi.rc
+import init.rtandroid.rc
 
 on init
     mkdir /persist 0771 system system
