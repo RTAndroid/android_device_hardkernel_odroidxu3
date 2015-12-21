@@ -1,7 +1,7 @@
 $(call inherit-product, device/hardkernel/odroidxu3/full_odroidxu3.mk)
 
-# Inherit some common RT stuff
-$(call inherit-product, vendor/ixi/config/common.mk)
+# Inherit realtime stuff
+$(call inherit-product, device/hardkernel/odroidxu3/realtime/rtandroid.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
