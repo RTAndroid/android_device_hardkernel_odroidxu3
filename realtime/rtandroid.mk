@@ -1,5 +1,5 @@
 # Inherit common realtime stuff
-$(call inherit-product, vendor/ixi/config/common.mk)
+$(call inherit-product, vendor/realtime/config/common.mk)
 
 # Device-specific init scripts
 PRODUCT_COPY_FILES += \
