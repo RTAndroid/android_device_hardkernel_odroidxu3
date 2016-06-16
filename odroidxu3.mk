@@ -183,12 +183,16 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    SamsungServiceMode
 
-
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     ro.secure=0
 
-
+# I2C tools
+PRODUCT_PACKAGES += \
+    i2cdetect \
+    i2cget \
+    i2cset \
+    i2cdump
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
